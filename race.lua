@@ -6540,12 +6540,6 @@ end
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 --RaceV4
-if First_Sea or Second_Sea then
-    local Mastery = Tabs.Race:AddSection("Thid Sea Please !!!")
-end
-
-if Third_Sea then
-local AutoMysticIsland = Tabs.Sea:AddSection("Aotu Race")
 
 Tabs.Race:AddButton({
     Title = "Timple Of Time",
