@@ -5,10 +5,10 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "Đạt Mods X Hub",
-    SubTitle = "Version 0.1 by Taem TN-ESPORTS",
-    TabWidth = 160,
+    SubTitle = "Version 0.1",
+    TabWidth = 190,
     Size = UDim2.fromOffset(530, 350),
-    Acrylic = true,
+    Acrylic = false,
     Theme = "Royx",
     MinimizeKey = Enum.KeyCode.End
 })
