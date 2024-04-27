@@ -2713,7 +2713,7 @@ end)
 
 
 
-        local ToggleCandy = Tabs.Main:AddToggle("ToggleCandy", {Title = "Auto Farm Candy",Description = "Cày Kẹo", Default = false })
+        local ToggleCandy = Tabs.Main:AddToggle("ToggleCandy", {Title = "Auto Candy",Description = "Cày Kẹo", Default = false })
         ToggleCandy:OnChanged(function(Value)
            _G.AutoCandy = Value
            if Value == false then
@@ -5261,7 +5261,7 @@ Tabs.Teleport:AddButton({
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Raid
 if First_Sea then
-    local Mastery = Tabs.Hop:AddSection("Second Sea or Thid Sea Please !!!")
+    local Mastery = Tabs.Raid:AddSection("Second Sea or Thid Sea Please !!!")
 end
 
 local Chips = {"Flame","Ice","Quake","Light","Dark","Spider","Rumble","Magma","Buddha","Sand","Phoenix","Dough"}
@@ -5896,7 +5896,7 @@ end)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 if First_Sea or Second_Sea then
-    local Mastery = Tabs.Hop:AddSection("Thid Sea Please !!!")
+    local Mastery = Tabs:Sea:AddSection("Thid Sea Please !!!")
 end
 
 if Third_Sea then
@@ -6544,6 +6544,8 @@ if First_Sea or Second_Sea then
     local Mastery = Tabs.Race:AddSection("Thid Sea Please !!!")
 end
 
+if Third_Sea then
+local AutoMysticIsland = Tabs.Sea:AddSection("Aotu Race")
 
 Tabs.Race:AddButton({
     Title = "Timple Of Time",
