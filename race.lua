@@ -5895,12 +5895,7 @@ end)
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-if First_Sea or Second_Sea then
-    local Mastery = Tabs:Sea:AddSection("Thid Sea Please !!!")
-end
 
-if Third_Sea then
-local AutoMysticIsland = Tabs.Sea:AddSection("Mirage Island")
 
 
     Tabs.Sea:AddButton({
